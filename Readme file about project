@@ -1,0 +1,64 @@
+
+
+***Project Title: 
+Pizza Sales Performance Analysis using SQL
+
+***Objective:
+To analyse transactional pizza sales data using SQL in order to generate actionable business insights related to revenue, customer demand patterns, and product performance.
+
+***Business Context 
+This project simulates a real-world scenario where a food business aims to
+Improve revenue performance
+Optimise operational efficiency
+Understand customer purchasing behaviour
+
+*** Dataset Description
+
+Data Source: Kaggle dataset
+
+Tables Used:
+orders – order-level data
+order_details – line-item details
+pizzas – pricing and size
+pizza_types – category and product info
+
+***Key Fields:
+
+Order ID, Pizza ID, Quantity,Order Date & Time,Price,Category & Size
+
+***Data Model Relationships
+
+One-to-many: orders → order_details
+Many-to-one: order_details → pizzas
+Many-to-one: pizzas → pizza_types
+
+***Analytical Approach
+
+Data understanding and relational mapping
+Query-based exploration using SQL
+Aggregation and trend analysis
+Business insight generation
+Result interpretation for decision-making.
+
+***Key Findings 
+
+Peak demand occurs between 18:00–21:00, indicating strong evening consumption patterns
+Classic category pizzas account for the highest share of total sales
+Weekend revenue is significantly higher (~20–25%) compared to weekdays
+A small subset of products (top 3 pizzas) contributes disproportionately to overall revenue (Pareto effect)
+Larger pizza sizes contribute more to revenue, despite lower order frequency.
+
+***Business Recommendations
+
+Increase staffing during peak evening hours to improve service efficiency
+Promote high-margin pizzas through targeted offers
+Introduce weekday discounts to balance demand
+Bundle large-size pizzas to maximise average order value.
+
+The queries releated to this project is mentioned in the pdf and some of the screenshots of the queries are attached here for your reference.
+
+
+
+
+
+
